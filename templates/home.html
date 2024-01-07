@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../static/app.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+        <title>Churn Prediction</title>
+        <meta name="keywords" content="cutom file input, styling, label, cross-browser, accessible, input type file" />
+    </head>
+    <body>
+        <div class="App">
+            <div class="navbar">
+                <div class="title">
+                    <i class="fa-solid fa-bahai">‌</i>
+                    <span>Churn Prediction</span>
+                </div>
+            </div>
+            <div class="predictor">
+                <div class="instructions">
+                    <span>
+                        About
+                    </span>
+                    <hr></hr>
+                    <div class="abt">
+                        <p> 
+                            Our bank customer churn prediction analysis helps the bank identify customers who are likely to stop using its services in the future. 
+                            The primary aim is to foresee and prevent customer attrition, allowing the bank to take proactive measures for customer retention.                        </p>
+                        <img src="https://miro.medium.com/v2/resize:fit:928/1*S3p9A6Sjnsl_fo3cAHSoZA.png" height="200px" width="300px" >
+                    </div>
+                    <div class="abt">
+                        <img src="https://resources.cdn.seon.io/uploads/2021/12/Credit_Card_Fraud_Detection.svg" height="200px" width="200px" >
+                        <p>
+                            Through in-depth analysis of customer behavior, we aim to predict and prevent churn in banking. 
+                            By identifying patterns indicative of potential account closures, we can implement targeted strategies to retain customers and enhance overall satisfaction, 
+                            ultimately improving the banking experience.</p>
+                    </div>
+                </div>
+                <form action="/result" method="post">
+                    <div class="loadData">
+                        <span>Provide your response</span>
+                        <hr></hr>
+                        <span>Enter all the necessary attributes here!</span>
+                        <input type="text" name = "txt" id="txt"/>
+                        <button type="submit">Post reply</button>
+                    </div>
+                </form>
+            </div>
+        </div> 
+    </body>
+</html>
