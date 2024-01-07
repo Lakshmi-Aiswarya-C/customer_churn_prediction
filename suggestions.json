@@ -1,0 +1,20 @@
+{
+    "suggestions": [
+        {
+            "label": "1",
+            "response": [
+                "Identify the reasons behind the churn and tailor special offers or discounts to win back the customer. This could include reduced fees, better interest rates, or exclusive promotions based on their previous banking behavior.",
+                "Establish a dedicated customer support team to reach out to churned customers. Understand their concerns, address any issues they faced, and provide solutions to encourage them to reconsider leaving.",
+                "Request feedback from churned customers to gain insights into areas that need improvement. Use this information to enhance services, address pain points, and communicate changes to demonstrate a commitment to meeting customer needs."
+            ]
+        },
+        {
+            "label": "0",
+            "response": [
+                "Acknowledge and reward customers who have remained loyal. Implement loyalty programs that offer exclusive perks, such as cashback, discounts, or access to premium services, to incentivize ongoing engagement.",
+                "Leverage the understanding of the customer's banking behavior to recommend additional services or products that align with their needs. This could include suggesting credit cards, investment opportunities, or other value-added services.",
+                "Keep not churned customers engaged by providing regular updates on new features, services, or relevant financial tips. Encourage the use of online banking features and mobile apps to make their banking experience more convenient and enjoyable."
+            ]
+        }
+    ]
+}
